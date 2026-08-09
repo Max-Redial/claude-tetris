@@ -32,5 +32,8 @@ jobs:
                in game.js if applicable), and suggested next step.
 
             Keep the comment concise (a few sentences to a short paragraph).
+            Format the comment as GitHub-flavored Markdown (e.g. backticks
+            for code/file refs, bold for labels, bullet lists where useful)
+            so it renders cleanly on the issue.
           claude_args: |
             --allowedTools "mcp__github__update_issue,mcp__github__add_issue_comment,mcp__github__get_issue,mcp__github__get_issue_comments,Read,Grep,Glob"
